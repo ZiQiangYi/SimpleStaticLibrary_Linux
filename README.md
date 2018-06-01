@@ -1,0 +1,1 @@
+# SimpleStaticLibrary_Linux
