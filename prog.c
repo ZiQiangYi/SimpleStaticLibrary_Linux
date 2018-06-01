@@ -5,8 +5,12 @@ void ctest2(int *);
 
 int main()
 {
-	int x;
-	ctest1(&x);
-	printf("Valx=%d\n",x);
-	return 0;
+    int x;
+    int y;
+    int z;
+    ctest1(&x);
+    ctest2(&y);
+    z = (y / x);
+    printf("%d / %d = %d\n", x, y, z);
+    return 0;
 }
